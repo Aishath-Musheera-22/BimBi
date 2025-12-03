@@ -43,29 +43,34 @@ BimBi is a **mobile recipe application** designed to help users explore, create,
 
 ---
 
-##  How to Run the App
+## How to Run the App
 
-1. Ensure **Node.js** and **npm** are installed.
-2. Install Expo CLI (optional):
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Aishath-Musheera-22/BimBi.git
+    cd BimBi
+    ```
+2. Ensure **Node.js** and **npm** are installed.
+3. Install Expo CLI (optional):
     ```bash
     npm install --global expo-cli
     ```
-3. Install project dependencies:
+4. Install project dependencies:
     ```bash
     npm install
     ```
-4. Install additional dependencies:
+5. Install additional dependencies:
     ```bash
     npx expo install @react-native-async-storage/async-storage
     expo install expo-image-picker
     npx expo install expo-linear-gradient
     npm install react-native-dotenv
     ```
-5. Start the development server:
+6. Start the development server:
     ```bash
     npx expo start
     ```
-6. Scan the QR code using the **Expo Go** app on your phone.
+7. Scan the QR code using the **Expo Go** app on your phone.
 
 ---
 
