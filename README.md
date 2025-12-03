@@ -1,10 +1,10 @@
-# Bimbi – Recipe App
+# BimBi – Recipe App
 
-Bimbi is a **mobile recipe application** designed to help users explore, create, and enjoy a wide variety of recipes. It provides an intuitive interface for managing personal recipes, browsing community submissions, and organising cooking ideas through tags and user profiles.
+BimBi is a **mobile recipe application** designed to help users explore, create, and enjoy a wide variety of recipes. It provides an intuitive interface for managing personal recipes, browsing community submissions, and organising cooking ideas through tags and user profiles.
 
 ---
 
-## 🍽️ Features
+##  Features
 
 ### User Accounts
 * Register a new account
@@ -29,7 +29,7 @@ Bimbi is a **mobile recipe application** designed to help users explore, create,
 
 ---
 
-## 💻 Technology Stack
+##  Technology Stack
 
 * **Expo Go** (for running the mobile application)
 * **TypeScript** (.tsx files)
@@ -43,7 +43,7 @@ Bimbi is a **mobile recipe application** designed to help users explore, create,
 
 ---
 
-## 🚀 How to Run the App
+##  How to Run the App
 
 1. Ensure **Node.js** and **npm** are installed.
 2. Install Expo CLI (optional):
@@ -69,7 +69,7 @@ Bimbi is a **mobile recipe application** designed to help users explore, create,
 
 ---
 
-## 📁 Project Structure (Short Overview)
+##  Project Structure (Short Overview)
 
 * `/app` – Screens and navigation
 * `/components` – Reusable UI components
@@ -79,7 +79,7 @@ Bimbi is a **mobile recipe application** designed to help users explore, create,
 
 ---
 
-## 📝 User Testing
+##  User Testing
 
 A separate **User Testing Document** has been completed, containing:
 * Test cases
@@ -91,7 +91,7 @@ This supports the evaluation of the app’s functionality and user experience.
 
 ---
 
-## 💡 Future Improvements
+##  Future Improvements
 
 * Add **search functionality**
 * Allow **sorting** by cooking time or difficulty
@@ -101,7 +101,7 @@ This supports the evaluation of the app’s functionality and user experience.
 
 ---
 
-## 🧪 Usability Issues Identified
+##  Usability Issues Identified
 
 | Issue Identified            | User Feedback                                      | Proposed Solution                                           |
 |-----------------------------|----------------------------------------------------|--------------------------------------------------------------|
@@ -113,36 +113,65 @@ This supports the evaluation of the app’s functionality and user experience.
 
 ---
 
-## 📸 Screenshots
+## Screenshots
+<table>
+  <tr>
+    <td>
+      <div style="display:flex; flex-direction:column; align-items:center; border:1px solid #e0e0e0; border-radius:10px; padding:8px; margin:8px; background:#ffffff;">
+        <img src="assets/images/splash-page.jpg" width="260" />
+        <div style="margin-top:6px; font-size:14px; font-weight:600;">Splash</div>
+      </div>
+    </td>
+    <td>
+      <div style="display:flex; flex-direction:column; align-items:center; border:1px solid #e0e0e0; border-radius:10px; padding:8px; margin:8px; background:#ffffff;">
+        <img src="assets/images/main.jpg" width="260" />
+        <div style="margin-top:6px; font-size:14px; font-weight:600;">Main</div>
+      </div>
+    </td>
+    <td>
+      <div style="display:flex; flex-direction:column; align-items:center; border:1px solid #e0e0e0; border-radius:10px; padding:8px; margin:8px; background:#ffffff;">
+        <img src="assets/images/login-page.jpg" width="260" />
+        <div style="margin-top:6px; font-size:14px; font-weight:600;">Login</div>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div style="display:flex; flex-direction:column; align-items:center; border:1px solid #e0e0e0; border-radius:10px; padding:8px; margin:8px; background:#ffffff;">
+        <img src="assets/images/register-page.jpg" width="260" />
+        <div style="margin-top:6px; font-size:14px; font-weight:600;">Register</div>
+      </div>
+    </td>
+    <td>
+      <div style="display:flex; flex-direction:column; align-items:center; border:1px solid #e0e0e0; border-radius:10px; padding:8px; margin:8px; background:#ffffff;">
+        <img src="assets/images/Homepage.jpg" width="260" />
+        <div style="margin-top:6px; font-size:14px; font-weight:600;">Homepage</div>
+      </div>
+    </td>
+    <td>
+      <div style="display:flex; flex-direction:column; align-items:center; border:1px solid #e0e0e0; border-radius:10px; padding:8px; margin:8px; background:#ffffff;">
+        <img src="assets/images/explore-page.jpg" width="260" />
+        <div style="margin-top:6px; font-size:14px; font-weight:600;">Explore Page</div>
+      </div>
+    </td>
+    <td>
+      <div style="display:flex; flex-direction:column; align-items:center; border:1px solid #e0e0e0; border-radius:10px; padding:8px; margin:8px; background:#ffffff;">
+        <img src="assets/images/explore-page.jpg" width="260" />
+        <div style="margin-top:6px; font-size:14px; font-weight:600;">Add-Recipe Page</div>
+      </div>
+    </td>
+    <td>
+      <div style="display:flex; flex-direction:column; align-items:center; border:1px solid #e0e0e0; border-radius:10px; padding:8px; margin:8px; background:#ffffff;">
+        <img src="assets/images/profile-page.jpg" width="260" />
+        <div style="margin-top:6px; font-size:14px; font-weight:600;">Profile Page</div>
+      </div>
+    </td>
 
-> All screenshots are stored in the `/assets/images` folder.
-
-### 🏠 Home Page
-![Home Page](assets/images/homepage.jpg)
-
-### 🍽️ Explore Page
-![Explore Page](assets/images/explore%20page.jpg)
-
-### ➕ Add Recipe
-![Add Recipe](assets/images/add-recipe.jpg)
-
-### 👤 Profile Page
-![Profile Page](assets/images/profile%20page.jpg)
-
-### 🔐 Login Page
-![Login Page](assets/images/login%20page.jpg)
-
-### 🆕 Register Page
-![Register Page](assets/images/register%20page.jpg)
-
-### 🚀 Splash Page
-![Splash Page](assets/images/splash%20page.jpg)
-
-### 📱 Main App Layout
-![Main Layout](assets/images/main.jpg)
+  </tr>
+</table>
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 Bimbi provides a simple and effective way to store, explore, and share recipes. With features for user profiles, tagging, browsing, and recipe creation, it offers a smooth experience for anyone looking to organise or discover new dishes.
