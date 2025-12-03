@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "RecipeApp",
+    "slug": "RecipeApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "assets/images/placeholder.png",
+    "scheme": "recipeapp",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "assets/images/placeholder.png",
+        "backgroundImage": "assets/images/placeholder.png",
+        "monochromeImage": "assets/images/placeholder.png"
+      }
+    },
+    "web": {
+      "favicon": "assets/images/placeholder.png"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "assets/images/placeholder.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#E07D43FF"
+        }
+      ]
+    ]
+  }
+}
