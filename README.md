@@ -171,7 +171,6 @@ This supports the evaluation of the app’s functionality and user experience.
         <div style="margin-top:6px; font-size:14px; font-weight:600;">Profile Page</div>
       </div>
     </td>
-
   </tr>
 </table>
 
